@@ -30,15 +30,12 @@ st.image(
         "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
 )
 
-col1, col2 = st.coloumns(2)
+col1, col2 = st.colomns(2)
 
-col1.image(
-        "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
-)
+col1.image = "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
 
-col2.image(
-        "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
-)
+col2.image = "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
+
 
 st.image(
             "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
