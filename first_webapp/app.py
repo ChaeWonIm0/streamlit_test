@@ -20,5 +20,17 @@ st.image(
 )
 
 st.image(
-    "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZgihY%2FbtrSYmKNFXT%2FxjyZIeKs9s7wZ7HLaH9JK0%2Fimg.png"
+    "https://cdn.pixabay.com/photo/2017/08/07/22/57/coffee-2608864_1280.jpg"
+)
+
+st.image(
+    "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg"
+)
+
+st.image(
+    "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg"
+)
+
+st.image(
+    "https://cdn.pixabay.com/photo/2022/12/13/03/12/03-12-04-105_1280.jpg"
 )
