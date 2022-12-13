@@ -37,23 +37,4 @@ with col3:
    st.header("An owl")
    st.image("https://static.streamlit.io/examples/owl.jpg")
 
-st.image(
-            "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
-)
-
-
-
-st.write(
-    """
-    ## 청계천
-
-    """
-)
-
-st.image(
-    "https://cdn.pixabay.com/photo/2022/12/13/03/12/03-12-04-105_1280.jpg"
-)
-
-
-
 
