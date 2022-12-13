@@ -59,3 +59,6 @@ add_selectbox = st.sidebar.selectbox("남성패션 온라인 쇼핑몰", ("---�
 add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("---선택해주세요---","도나앤디","러블링","윙블링"))
 
 add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("---선택해주세요---","러블리슈즈", "보가", "사뿐",))
+
+if st.button('data copyright link'):
+    st.write('https://www.data.go.kr/data/15044247/fileData.do')
