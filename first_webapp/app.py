@@ -5,9 +5,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-import streamlit as st
-from streamlit_image_comparison import image_comparison
-
 
 # 마크다운을 기반으로 한 꾸미기 기능 작동
 st.write(
@@ -26,14 +23,9 @@ st.write(
     """
 )
 
-st.image(
-        "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
-)
-
 col1, col2 = st.columns(2)
 
 col1.image = "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
-
 col2.image = "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
 
 
