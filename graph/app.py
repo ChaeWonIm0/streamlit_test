@@ -3,7 +3,7 @@ import streamlit as st # st라는 이름으로 사용
 import numpy as np
 import pandas as pd
 import seaborn as sns
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 
 st.write(
