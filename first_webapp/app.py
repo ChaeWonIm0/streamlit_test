@@ -61,4 +61,4 @@ add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("---�
 add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("---선택해주세요---","러블리슈즈", "보가", "사뿐",))
 
 if st.sidebar.selectbox('무신사'):
-    st.write('https://www.musinsa.com/')
+    st.read('https://www.musinsa.com/')
