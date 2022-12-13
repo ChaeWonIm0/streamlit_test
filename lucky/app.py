@@ -8,7 +8,7 @@ import pandas as pd
 # st.write() 마크다운
 st.title("조추첨 페이지")
 st.header("여러분의 참여를 환영합니다!")
-st.image("./lucky/jamesavata.jpg")
+st.image("./lucky/호날두.jpg")
 # 추첨 대상인 13명의 이름을 넣을 수 있는 text_input
 # 4 x 4 (row, col)
 # 열을 배치하는 메소드
