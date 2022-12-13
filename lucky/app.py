@@ -11,8 +11,7 @@ st.header("여러분의 참여를 환영합니다!")
 # 추첨 대상인 13명의 이름을 넣을 수 있는 text_input
 # 3 x 4 (row, col)
 # 열을 배치하는 메소드
-tabs = st.tabs(2)
-
+tabs = st.tabs(['참가자'])
 columns = st.columns(4) # 화면을 열로 나누어서 배치합니다.
 # 가로 4개의 열 -> columns = [col1, col2, col3, col4]
 # col1, col2, col3, col4
@@ -27,7 +26,6 @@ for idx, col in enumerate(columns): # 열의 위치
             f"조 추첨 대상 {idx+1 + idx2 * 4}",
             key=f"넘버{idx+1 + idx2 * 4}"
         ) # 4번 호출됨
-
 # <추첨 버튼>
 # 13개의 짝을 지어서 표시해줄 그래픽
 st.write(st.session_state)
