@@ -14,5 +14,7 @@ st.write(
 # 이미지 링크 삽입
 st.image(
         "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
-        "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
+)
+st.image(
+            "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
 )
