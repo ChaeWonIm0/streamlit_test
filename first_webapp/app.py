@@ -70,14 +70,14 @@ st.header(" 2020년 - 2022년 상반기 패션 시장 규모 ")
 st.markdown("#####      (단위 : 십억 원) ")
 
 fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
-# st.write(fashion)
+st.write(fashion)
 # graph = sns.pairplot(fashion)
 
 
 import plotly.express as px
 
 
-fig = px.histogram(fashion, x="index", y = '2022', nbins = 20)
+fig = px.histogram(fashion, x="index", y = '2020_SS', nbins = 20)
 st.plotly_chart(fig)
 
 # fig = plt.figure(figsize=(8, 4))
