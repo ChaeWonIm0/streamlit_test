@@ -37,4 +37,9 @@ with col3:
    st.header("An owl")
    st.image("https://static.streamlit.io/examples/owl.jpg")
 
+with col4:
+   st.header("An ho")
+   st.image("https://static.streamlit.io/examples/owl.jpg")
+
+
 
