@@ -3,6 +3,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib.pyplot as plt
+
+titanic = sns.load_dataset('titanic')
+st.write(titanic) # 적당히 짤라줌
 
 # 마크다운을 기반으로 한 꾸미기 기능 작동
 st.write(
