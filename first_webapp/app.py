@@ -102,4 +102,3 @@ st.bar_chart(fashion, width = 150, height = 600)
 # fig.show()
 
 fig = px.parallel_categories(fashion_market)
-fig.show()
