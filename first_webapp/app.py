@@ -52,10 +52,10 @@ with col4:
     st.header("Winter")
     st.image("./2020 image/2020패션 겨울.jpg")
 
-add_selectbox = st.sidebar.selectbox("여성패션 온라인 쇼핑몰", ("45번가", "갠소", "고고싱","그녀희재","그레이시크"))
+add_selectbox = st.sidebar.selectbox("여성패션 온라인 쇼핑몰", ("---선택해주세요---","45번가", "갠소", "고고싱","그녀희재","그레이시크"))
 
-add_selectbox = st.sidebar.selectbox("남성패션 온라인 쇼핑몰", ("무신사", "디에프디", "힙합퍼",))
+add_selectbox = st.sidebar.selectbox("남성패션 온라인 쇼핑몰", ("---선택해주세요---","무신사", "디에프디", "힙합퍼",))
 
-add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("도나앤디","러블링","윙블링"))
+add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("---선택해주세요---","도나앤디","러블링","윙블링"))
 
-add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("러블리슈즈", "보가", "사뿐",))
+add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("---선택해주세요---","러블리슈즈", "보가", "사뿐",))
