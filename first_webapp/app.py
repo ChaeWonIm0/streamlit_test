@@ -20,5 +20,5 @@ st.image(
 )
 
 st.image(
-    "file:///C:/Users/%EC%9E%84%EC%B1%84%EC%9B%90/Downloads/%EB%8C%91(@dap.chaewon)%20%E2%80%A2%20Instagram%20%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EB%8F%99%EC%98%81%EC%83%81.html"
+    "file:///C:/Users/%EC%9E%84%EC%B1%84%EC%9B%90/Pictures/DarkArchonHero_SC1_Game1.JPG.webp"
 )
