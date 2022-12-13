@@ -77,7 +77,7 @@ st.write(fashion)
 import plotly.express as px
 
 
-fig = px.histogram(fashion, x="2022")
+fig = px.histogram(fashion, x="Male_formal")
 st.plotly_chart(fig)
 
 # fig = plt.figure(figsize=(8, 4))
