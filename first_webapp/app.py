@@ -58,3 +58,14 @@ st.write(
 st.image(
     "https://cdn.pixabay.com/photo/2022/12/13/03/12/03-12-04-105_1280.jpg"
 )
+
+
+
+import streamlit as st
+from streamlit_image_comparison import image_comparison
+import cv2
+
+
+st.set_page_config("Webb Space Telescope vs Hubble Telescope", "🔭")
+streamlit 
+streamlit-image-comparison
