@@ -93,7 +93,7 @@ import plotly.express as px
 # st.pyplot(fig)
 
 st.header("Size of the fashion market for all items")
-st.bar_chart(fashion, width = 150, height = 600, rot = 90)
+st.bar_chart(fashion, width = 150, height = 600)
 
 # st.header("Male formal Market size")
 # st.bar_chart(fashion, x="Male_formal", y="2020", color="2021")
