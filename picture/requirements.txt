@@ -1,4 +1,0 @@
-streamlit 
-streamlit-image-comparison
-cv2
-image_comparison
