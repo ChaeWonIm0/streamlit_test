@@ -7,4 +7,4 @@
 
 > streamlit 작동에 필요한 2가지
 1. 000.py : 작동시켜줄 메인 코드
-2. requirements.txt : pip를 해야 할 라이브러리를 적어놓
+2. requirements.txt : pip를 해야 할 라이브러리를 적어놓음(의존성)
