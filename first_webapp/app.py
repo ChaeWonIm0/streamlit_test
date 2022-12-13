@@ -20,5 +20,5 @@ st.image(
 )
 
 st.image(
-    "file:///C:/Users/%EC%9E%84%EC%B1%84%EC%9B%90/Pictures/DarkArchonHero_SC1_Game1.JPG.webp"
+    "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZgihY%2FbtrSYmKNFXT%2FxjyZIeKs9s7wZ7HLaH9JK0%2Fimg.png"
 )
