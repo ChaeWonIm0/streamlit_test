@@ -76,8 +76,7 @@ st.write(fashion)
 
 import plotly.express as px
 
-fig = plt.figure(figsize=(8, 4))
-fashion['index'] = fashion.index
+
 
 # fig = px.histogram(fashion, x="2022_SS")
 # st.plotly_chart(fig)
@@ -93,3 +92,5 @@ fashion['index'] = fashion.index
 # plt.pie(x=x, labels=labels, autopct='%.1f%%')
 # st.pyplot(fig)
 
+st.header("Chart Data")
+	st.bar_chart(fashion)
