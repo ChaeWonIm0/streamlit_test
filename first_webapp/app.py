@@ -65,9 +65,9 @@ add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("---�
 
 add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("---선택해주세요---","러블리슈즈", "보가", "사뿐",))
 
-st.header(" 2020년 - 2022년 상반기 패션 시장 규모 ")
+st.header(" 1st half of 2020 - 1st half of 2022 Fashion market size trend ")
 
-st.markdown("#####      (단위 : 십억 원) ")
+st.markdown("#####      (Unit: KRW 1 billion) ")
 
 fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
 st.write(fashion)
@@ -92,8 +92,8 @@ import plotly.express as px
 # plt.pie(x=x, labels=labels, autopct='%.1f%%')
 # st.pyplot(fig)
 
-st.header("전 품목 시장규모추이")
+st.header("Size of the fashion market for all items")
 st.bar_chart(fashion)
 
-st.header("남성 포멀부문 시장규모추이")
-st.bar_chart(fashion, x="Male_formal")
+st.header("Male formal Market size")
+st.bar_chart(fashion, x=Male_formal)
