@@ -78,8 +78,13 @@ st.write(
     '''
 
     titanic = sns.load_dataset('titanic')
-    #st.write(titanic)
+    st.write(titanic) # 적당히 잘라줌
+
     titanic.head()
+    
+    sns.hisplot(data=titanic, x = 'age')
+    st.pyplot()
+    st.pyplot(fig)
     '''
     titanic.head()
 
