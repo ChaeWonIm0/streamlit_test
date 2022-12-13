@@ -20,5 +20,9 @@ st.image(
 )
 
 st.image(
-    "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FZgihY%2FbtrSYmKNFXT%2FxjyZIeKs9s7wZ7HLaH9JK0%2Fimg.png"
+    "https://postfiles.pstatic.net/MjAyMjEyMTNfMTIy/MDAxNjcwOTAwNzg5NDQ3.geEJGFFld62ZsjJWT45KCSixMspf_mM62BXbFrvh75Mg.MR1fMJYIoCp48li56urkZ-ytmTSlybQB2V1AVktPoxUg.JPEG.dla9944/KakaoTalk_20221206_131801758.jpg?type=w773"
+)
+
+st.image(
+    "https://postfiles.pstatic.net/MjAyMjEyMTNfNTcg/MDAxNjcwOTAwODMxMjEw.QKPjqA95RtOgOZub5M7bEOYcJ1zNKPwqGkmMsna_6nMg.hK-XrDbGMdVVxEyiL770LfydfV_ouCOTDXXfnDN2hqMg.JPEG.dla9944/KakaoTalk_20221128_104326293_01.jpg?type=w773"
 )
