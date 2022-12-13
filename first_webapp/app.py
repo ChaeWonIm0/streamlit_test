@@ -100,3 +100,4 @@ import plotly.express as px
 
 fig = px.line(fashion)
 print(fig)
+fig.show()
