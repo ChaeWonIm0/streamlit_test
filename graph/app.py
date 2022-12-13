@@ -77,14 +77,14 @@ st.write(
     데이터의 분포가 열마다 다르면 머신러닝이 불가 어느정도 비슷한 모양으로 변경해서 스케일링합니다. 어떤 스케일링으로 할지는 관건
     '''
 
-    titanic = sns.load_dataset('titanic')
-    st.write(titanic) # 적당히 잘라줌
+titanic = sns.load_dataset('titanic')
+st.write(titanic) # 적당히 잘라줌
 
-    titanic.head()
+titanic.head()
     
-    sns.hisplot(data=titanic, x = 'age')
-    st.pyplot()
-    st.pyplot(fig)
+sns.hisplot(data=titanic, x = 'age')
+st.pyplot()
+st.pyplot(fig)
     '''
     titanic.head()
 
