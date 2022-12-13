@@ -14,6 +14,8 @@ st.write(
     """
 )
 
+st.image("./lucky/1980패션 가을.jpg")
+
 # 이미지 링크 삽입
 
 
