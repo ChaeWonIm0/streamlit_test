@@ -93,4 +93,4 @@ import plotly.express as px
 # st.pyplot(fig)
 
 st.header("Chart Data")
-	st.bar_chart(fashion)
+st.bar_chart(fashion)
