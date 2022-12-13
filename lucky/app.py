@@ -1,17 +1,17 @@
 # streamlit 라이브러리 호출
-import streamlit as st
+import streamlit as st # st라는 이름으로 사용
 import numpy as np
 import pandas as pd
 
-# https://docs.streamlit.io/library/get-started/main-concepts
 # st.write() 마크다운
 st.title("조추첨 페이지")
-
 st.header("여러분의 참여를 환영합니다!")
 
 # 추첨 대상인 13명의 이름을 넣을 수 있는 text_input
-# 3 x 4 (row, col)
+# 4 x 4 (row, col)
 # 열을 배치하는 메소드
+# x = st.columns(n) : n만큼의 컬럼 리스트를 생성
+
 tabs = st.tabs(['참가자', '조'])
 
 # 0번째 탭에 컬럼(열)을 넣겠다
@@ -69,9 +69,7 @@ g_data = ss2[g_idx]
 # n_data를 섞어줄 것임 (비복원으로)
 n_rd = np.random.choice(n_data, len(n_data), replace=False)
 st.write(n_rd)
-g_rd = np.random.choice(g_data, len(g_data), replace=False)
-st.write(g_rd)
 
-df = pd.DataFrame({"추첨 대상자 이름": n_rd, "조 이름" : g_rd,
-})
-st.write(df)
+# 2. df 형태로 정리
+# <추첨 버튼>
+# 13개의 짝을 지어서 표시해줄 그래픽
