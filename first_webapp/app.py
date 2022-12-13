@@ -67,6 +67,17 @@ st.image(
     "https://cdn.pixabay.com/photo/2016/01/20/13/05/cat-1151519_1280.jpg"
 )
 
+
+
+
+
+st.write(
+    """
+    
+    기부 성공
+
+    """
+)
 st.image(
     "https://cdn.pixabay.com/photo/2017/11/10/15/04/steak-2936531_1280.jpg"
 )
