@@ -52,4 +52,4 @@ with col4:
     st.header("Winter")
     st.image("./2020 image/2020패션 겨울.jpg")
 
-<a href="https://homzzang.com"></a><br>
+st.button("o")
