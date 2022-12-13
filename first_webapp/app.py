@@ -67,3 +67,7 @@ add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("---선택�
 
 fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
 st.write(fashion)
+
+fig = plt.figure(figsize=(8, 4))
+sns.histplot(data=fashion, x='index', )
+st.pyplot(fig)
