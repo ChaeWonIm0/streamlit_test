@@ -71,6 +71,23 @@ st.markdown("#####      (단위 : 십억 원) ")
 
 fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
 st.write(fashion)
+# graph = sns.pairplot(fashion)
 
-graph = sns.pairplot(fashion)
-st.write(graph)
+
+import plotly.express as px
+
+
+fig = px.histogram(fashion, x="index")
+st.plotly_chart(fig)
+
+# fig = plt.figure(figsize=(8, 4))
+# sns.histplot(data=titanic, x='age', hue='alive', multiple='stack')
+# st.pyplot(fig)
+
+# # pie
+# x = [10, 60, 30] # 범주형 데이터별 파이 그래프의 비율
+# labels = ['A', 'B', 'C']
+# fig = plt.figure(figsize=(8, 4))
+# plt.pie(x=x, labels=labels, autopct='%.1f%%')
+# st.pyplot(fig)
+
