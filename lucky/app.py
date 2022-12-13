@@ -5,7 +5,7 @@ import streamlit as st # st라는 이름으로 사용
 import numpy as np
 import pandas as pd
 
-# st.write() 마크다운
+# st.write()
 st.title("조추첨 페이지")
 st.header("여러분의 참여를 환영합니다!")
 st.image("./lucky/호날두.jpg")
