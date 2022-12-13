@@ -98,5 +98,4 @@ import plotly.express as px
 # st.header("Male formal Market size")
 # st.bar_chart(fashion, x="Male_formal", y="2020", color="2021")
 
-fig = px.bar_polar(fashion)
-fig.show()
+fig = px.line(fashion)
