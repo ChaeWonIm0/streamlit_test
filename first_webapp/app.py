@@ -65,5 +65,5 @@ add_selectbox = st.sidebar.selectbox("액세서리 온라인 쇼핑몰", ("---�
 
 add_selectbox = st.sidebar.selectbox("신발 온라인 쇼핑몰", ("---선택해주세요---","러블리슈즈", "보가", "사뿐",))
 
-pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
-
+fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
+st.write(fashion)
