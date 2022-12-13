@@ -96,4 +96,4 @@ st.header("Size of the fashion market for all items")
 st.bar_chart(fashion)
 
 st.header("Male formal Market size")
-st.bar_chart(fashion, y = 'Male_formal')
+st.bar_chart(fashion, x = 'Male_formal', y = "2020")
