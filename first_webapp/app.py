@@ -77,7 +77,7 @@ fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
 import plotly.express as px
 
 
-fig = px.histogram(fashion, x="index", nbins = 20)
+fig = px.histogram(fashion, x="index", y = '2022', nbins = 20)
 st.plotly_chart(fig)
 
 # fig = plt.figure(figsize=(8, 4))
