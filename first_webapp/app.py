@@ -81,7 +81,7 @@ fig = px.histogram(fashion, x="index")
 st.plotly_chart(fig)
 
 fig1 = plt.figure(figsize=(8, 4))
-sns.histplot(data=fashion, x='index', hue='Male_formal', multiple='stack')
+sns.histplot(data=fashion)
 st.pyplot(fig1)
 
 # # pie
