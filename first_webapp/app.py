@@ -99,3 +99,4 @@ import plotly.express as px
 # st.bar_chart(fashion, x="Male_formal", y="2020", color="2021")
 
 fig = px.line(fashion)
+print(fig)
