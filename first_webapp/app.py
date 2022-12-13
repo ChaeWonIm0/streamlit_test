@@ -53,4 +53,5 @@ with col4:
     st.image("./2020 image/2020패션 겨울.jpg")
 
 add_selectbox = st.sidebar.selectbox("여성 온라인 패션 쇼핑몰", ("45번가", "갠소", "고고싱",))
-add_selectbox2 = st.sidebar.selectbox2("남성 온라인 패션 쇼핑몰", ("무신사", "디에프디", "힙합퍼",))
+
+add_selectbox = st.sidebar.selectbox("남성 온라인 패션 쇼핑몰", ("무신사", "디에프디", "힙합퍼",))
