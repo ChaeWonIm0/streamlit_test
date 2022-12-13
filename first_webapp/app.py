@@ -101,4 +101,4 @@ st.bar_chart(fashion, width = 150, height = 600)
 # fig = px.scatter(fashion)
 # fig.show()
 
-fashion_market.plot.hist()
+st.fashion_market.plot.hist()
