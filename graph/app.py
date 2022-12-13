@@ -78,7 +78,8 @@ st.write(
     '''
 
     titanic = sns.load_dataset('titanic')
-    st.write(titanic)
+    #st.write(titanic)
+    titanic.head()
     '''
     titanic.head()
 
