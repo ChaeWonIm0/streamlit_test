@@ -76,5 +76,6 @@ df = pd.DataFrame({
        "추첨 대상자 이름": n_rd,
        "조 이름": g_rd,
 })
-    st.snow()
-    st.write(df)
+
+st.snow()
+st.write(df)
