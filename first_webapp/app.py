@@ -72,6 +72,5 @@ st.markdown("### (단위 : 십억 원) ")
 fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
 st.write(fashion)
 
-fig = plt.figure(figsize=(8, 4))
 sns.histplot(data=fashion, x='index')
-st.pyplot(fig)
+
