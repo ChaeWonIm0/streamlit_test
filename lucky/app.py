@@ -53,6 +53,12 @@ st.write(st.session_state)
 # 13개의 짝을 지어서 표시해줄 그래픽
 # np.random.choice → 추출해서 이름들을 목록화 시킴
 
+# 1. st.session_state : n, g가 섞여있습니다
+ss = pd.Series(st.session_state)
+st.write(ss)
+
+# 2. df형태로 정리
+
 st.image(
     "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg"
 )
