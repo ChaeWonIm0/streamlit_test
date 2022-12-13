@@ -79,12 +79,12 @@ import plotly.express as px
 fig = plt.figure(figsize=(8, 4))
 fashion['index'] = fashion.index
 
-fig = px.histogram(fashion, x="2022_SS")
-st.plotly_chart(fig)
+# fig = px.histogram(fashion, x="2022_SS")
+# st.plotly_chart(fig)
 
-fig1 = plt.figure(figsize=(8, 4))
-sns.histplot(data=fashion, x = '2022_SS')
-st.pyplot(fig1)
+# fig1 = plt.figure(figsize=(8, 4))
+# sns.histplot(data=fashion, x = '2022_SS')
+# st.pyplot(fig1)
 
 # # pie
 # x = [10, 60, 30] # 범주형 데이터별 파이 그래프의 비율
