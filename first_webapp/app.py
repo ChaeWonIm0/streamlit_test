@@ -1,47 +1,54 @@
-# streamlit 라이브러리 호출
 import streamlit as st
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
+# from streamlit_image_comparison import image_comparison
+# import cv2
 
 
-# 마크다운을 기반으로 한 꾸미기 기능 작동
-st.write(
-    """ 
-    ## 서울의 과거 사진 비교
-    ## 
-    """
-)
-
-st.image("./lucky/1980패션 가을.jpg")
-
-# 이미지 링크 삽입
+st.set_page_config("Fashion Trand")
 
 
-st.write(
-    """
-    ## 한강
-    """
-)
+st.image("./2020 image/유아인.png") #카메라
 
-col1, col2, col3, col4 = st.columns(3)
+
+st.header("1980's Fashion vs 2020's Fashion")
+
+st.write("")
+"This web is a site where you can know the fashion from the past to the present.!"
+st.write("")
+
+st.markdown("### 1980's Fashion")
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-   st.header("A cat")
-   st.image("https://static.streamlit.io/examples/cat.jpg")
+   st.header("Spring")
+   st.image("./1980 image/1980패션 봄.jpg")
 
 with col2:
-   st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg")
-
+   st.header("Summer")
+   st.image("./1980 image/1980패션 여름.jpg")
 with col3:
-   st.header("An owl")
-   st.image("https://static.streamlit.io/examples/owl.jpg")
+    st.header("Fall")
+    st.image("./1980 image/1980패션 가을.jpg")
 
 with col4:
-   st.header("An ho")
-   st.image("https://static.streamlit.io/examples/owl.jpg")
+    st.header("Winter")
+    st.image("./1980 image/1980패션 겨울.jpg")
 
+st.markdown("### 2020's Fashion")
+col1, col2, col3, col4 = st.columns(4)
 
+with col1:
+   st.header("Spring")
+   st.image("./2020 image/2020패션 봄.jpg")
+
+with col2:
+   st.header("Summer")
+   st.image("./2020 image/2020패션 여름.jpg")
+
+with col3:
+    st.header("Fall")
+    st.image("./2020 image/2020패션 가을.jpg")
+
+with col4:
+    st.header("Winter")
+    st.image("./2020 image/2020패션 겨울.jpg")
 
