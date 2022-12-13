@@ -1,17 +1,20 @@
 # streamlit 라이브러리 호출
 import streamlit as st
+import pandas as pd
+import numpy as np
+import seaborn as sns
 
 # 마크다운을 기반으로 한 꾸미기 기능 작동
 st.write(
     """ 
-    # 세상에서 가장 귀여운 생명체는
-    ## 무엇일까요?
+    ## 서울의 과거 사진
+    ## 
     """
 )
 
 # 이미지 링크 삽입
 
-
+titanic = sns.
 
 st.write(
     """
