@@ -18,7 +18,6 @@ st.write(
 
 # 이미지 링크 삽입
 
-titanic = sns.
 
 st.write(
     """
