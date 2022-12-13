@@ -77,11 +77,11 @@ st.write(fashion)
 import plotly.express as px
 
 
-fig = px.histogram(fashion, x="index")
+fig = px.histogram(fashion, x="2022_SS")
 st.plotly_chart(fig)
 
 fig1 = plt.figure(figsize=(8, 4))
-sns.histplot(data=fashion)
+sns.histplot(data=fashion, x = '2022_SS')
 st.pyplot(fig1)
 
 # # pie
