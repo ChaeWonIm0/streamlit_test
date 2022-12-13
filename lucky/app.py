@@ -51,7 +51,7 @@ for idx, col in enumerate(columns2): # 열의 위치
 st.write(st.session_state)
 # <추첨 버튼>
 # 13개의 짝을 지어서 표시해줄 그래픽
-
+# np.random.choice → 추출해서 이름들을 목록화 시킴
 
 st.image(
     "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg"
