@@ -92,5 +92,8 @@ import plotly.express as px
 # plt.pie(x=x, labels=labels, autopct='%.1f%%')
 # st.pyplot(fig)
 
-st.header("Chart Data")
+st.header("전 품목 시장규모추이")
 st.bar_chart(fashion)
+
+st.header("남성 포멀부문 시장규모추이")
+st.bar_chart(fashion, x="Male_formal")
