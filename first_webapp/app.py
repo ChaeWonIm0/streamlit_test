@@ -23,11 +23,19 @@ st.write(
     """
 )
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
-col1.image = "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
-col2.image = "https://cdn.pixabay.com/photo/2018/03/27/17/25/cat-3266673_1280.jpg"
+with col1:
+   st.header("A cat")
+   st.image("https://static.streamlit.io/examples/cat.jpg")
 
+with col2:
+   st.header("A dog")
+   st.image("https://static.streamlit.io/examples/dog.jpg")
+
+with col3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg")
 
 st.image(
             "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg"
