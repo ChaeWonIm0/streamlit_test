@@ -99,4 +99,6 @@ st.plotly_chart(fig)
 # st.line_chart("fashion")
 
 titanic = sns.load_dataset('titanic')
+titanic.head()
+
 sns.displot(data=titanic, x = 'age', kde=True)
