@@ -95,5 +95,5 @@ st.header("")
 fashion_market = pd.pivot_table(fashion, index = 'index', columns = [''])
 st.write(fashion_market)
 
-st.header("Male formal Market size")
-st.line_chart(fashion_market, x="Male_formal")
+# st.header("Male formal Market size")
+# st.line_chart(fashion_market, x="Male_formal")
