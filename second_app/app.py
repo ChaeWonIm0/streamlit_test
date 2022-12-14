@@ -92,8 +92,8 @@ import plotly.express as px
 #                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
 
 st.header("")
-fashion_market = pd.pivot_table(fashion, index = 'index')
+fashion_market = pd.pivot_table(fashion, index = 'index', columns = [''])
 st.write(fashion_market)
 
 st.header("Male formal Market size")
-st.bar_chart(fashion_market, x="Male_formal")
+st.line_chart(fashion_market, x="Male_formal")
