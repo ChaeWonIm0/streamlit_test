@@ -94,6 +94,11 @@ st.write(fashion)
 st.header("Size of the fashion market for all items")
 st.bar_chart(fashion, width = 150, height = 600)
 
+
+import plotly.express as px
+
+
+
 # st.header("Male formal Market size")
 # st.bar_chart(fashion, x="Male_formal", y="2020", color="2021")
 
@@ -101,3 +106,6 @@ st.bar_chart(fashion, width = 150, height = 600)
 # fig.show()
 
 fig = px.parallel_categories(fashion_market)
+
+fig = px.scatter(x=['Male_formal', 'Female_formal','Casual','Sports','Inner','Kids','Shoes','bag'], y = ['1538.9','2342.1', '3881','1888.4','2565.3','4453.6','1921.1'] )
+fig.show()
