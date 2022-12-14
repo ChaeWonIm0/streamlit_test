@@ -97,7 +97,7 @@ fashion_market = pd.pivot_table(fashion, index = 'index')
 st.header("Male formal Market size")
 st.area_chart(fashion_market, height = 600)
 
-st.line_chart(data="fashion_market")
+st.line_chart("fashion_market")
 
 def draw_line_plot(style):
   plt.title('나이와 재산 간 상관관계')
