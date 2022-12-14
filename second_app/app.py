@@ -102,3 +102,5 @@ st.write(fashion_market)
 # sns.histplot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
 # plt.title("Hello Penguins!")
 # st.pyplot(fig)
+
+sns.heatmap(fashion_market[['2020','2020_FW','2020_SS','2021','2021_FW','2021_SS','2022_SS']])
