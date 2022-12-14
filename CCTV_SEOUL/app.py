@@ -8,3 +8,5 @@ CCTV_Seoul = pd.read_csv('./CCTV_SEOUL/dataframe/CCTV_in_Seoul.csv', encoding='u
 st.write(CCTV_Seoul)
 
 CCTV_Seoul
+
+import plotly.express as px
