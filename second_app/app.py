@@ -109,6 +109,7 @@ import plotly.express as px
 # st.line_chart(data=mosq_data, x='모기지수 발생일', 
 #                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
 
+pip install seaborn
 
 data_frame = sns.load_dataset('planets')
 print(data_frame.head())
