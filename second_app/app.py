@@ -110,8 +110,9 @@ columns = ["항목", "2020_SS", "2020_FW", "2020", "2021_SS","2021_FW", "2021", 
 index = ["Male_formal", "Female_formal", "Casual", "Sports", "Inner", "Kids", "Shoes", "bag"]
 df = pd.DataFrame(data, index=index, columns=columns)
 
-sns.kdeplot(data = df)
-# st.line_chart("fashion")
+fig = plt.figure(figsize=(8,4))
+sns.histplot(data = df, x = 'Casual')
+st.pyplot(fig)
 
 # st.write(fashion_market)
 
