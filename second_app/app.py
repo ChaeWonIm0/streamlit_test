@@ -73,10 +73,8 @@ fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
 st.write(fashion)
 # graph = sns.pairplot(fashion)
 
-st.header("Size of the fashion market for all items")
+st.header("Size of the fashion market for all items_bar_chart")
 st.bar_chart(fashion, width = 150, height = 600)
-
-
 import plotly.express as px
 
 # st.header("Male formal Market size")
@@ -94,10 +92,10 @@ import plotly.express as px
 fashion_market = pd.pivot_table(fashion, index = 'index')
 #st.write(fashion_market)
 
-st.header("Male formal Market size")
+st.header("Size of the fashion market for all items_area_graph")
 st.area_chart(fashion_market, height = 600)
 
-st.line_chart("fashion")
+# st.line_chart("fashion")
 
 def draw_line_plot(style):
   plt.title('나이와 재산 간 상관관계')
