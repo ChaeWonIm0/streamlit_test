@@ -86,7 +86,7 @@ import plotly.express as px
 # fig = px.parallel_categories(fashion_market)
 
 fashion_market = pd.pivot_table(fashion, index = 'index')
-#st.write(fashion_market)
+st.write(fashion_market)
 
 import plotly.graph_objects as go
 
@@ -98,4 +98,5 @@ st.plotly_chart(fig)
 
 # st.line_chart("fashion")
 
-fashion.plot.hist()
+titanic = sns.load_dataset('titanic')
+sns.displot(data=titanic, x = 'age', kde=True)
