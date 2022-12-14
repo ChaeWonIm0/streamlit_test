@@ -108,3 +108,4 @@ def draw_line_plot(style):
   plt.ylabel('재산')
   plt.grid(True)
   plt.show()
+  draw_line_plot
