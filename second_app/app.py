@@ -96,6 +96,25 @@ values = [1921,1359,8311,2697,964,584,3386]
 fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
 st.plotly_chart(fig)
 
+data = {
+    "항목" : ["Male_formal", "Female_formal", "Casual", "Sports", "Inner", "Kids", "Shoes", "bag"],
+    "2020_SS" : [1538.9, 1187.5, 6993, 2265.6, 911.1, 356.5, 2917.5, 1273.4],
+    "2020_FW" : [2342.1, 1480.1, 8612.7, 3714.5, 1196.5, 555.5, 3187.6, 1790.4],
+    "2020" : [3881, 2667.7, 15605.6, 5980.1, 2107.6, 912, 6105.1, 1247],
+    "2021_SS" : [1888.4, 1660.7, 7665.1, 2402.2, 864.9, 487, 3093, 1691.4],
+    "2021_FW" : [2565.3, 1484.3, 9747.8, 3387.4, 1201.9, 637.7, 3575.1, 2938.5],
+    "2021" : [4453.6, 3085, 17402.9, 5789.6, 2066.8, 1124.7, 6668.1, 1353.1],
+    "2022_SS" : [1921.1, 1359.7, 8311.2, 2696.9, 964.6, 584.2, 3386.9, 0]
+}
+columns = ["항목", "2020_SS", "2020_FW", "2020", "2021_SS","2021_FW", "2021", "2022_SS"]
+index = ["Male_formal", "Female_formal", "Casual", "Sports", "Inner", "Kids", "Shoes", "bag"]
+df = pd.DataFrame(data, index=index, columns=columns)
+st.write(df)
+
 # st.line_chart("fashion")
 
 st.write(fashion_market)
+
+st.write("")
+"copyright by JiWon Seo & Chaewon Im"
+st.write("")
