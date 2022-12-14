@@ -88,8 +88,11 @@ import plotly.express as px
 fashion_market = pd.pivot_table(fashion, index = 'index')
 #st.write(fashion_market)
 
-st.header("Size of the fashion market for all items_area_graph")
-st.area_chart(fashion_market, height = 600)
+import plotly.graph_objects as go
+labels = ['Male_formal','Female_formal','Casual','Sprots','Inner','kids','Shoes']
+values = [1921,1359,8311,2697,964,584,3386]
+fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
+st.plotly_chart(fig)
 
 # st.line_chart("fashion")
 
