@@ -97,15 +97,18 @@ st.bar_chart(fashion, width = 150, height = 600)
 
 import plotly.express as px
 
-
-
 # st.header("Male formal Market size")
 # st.bar_chart(fashion, x="Male_formal", y="2020", color="2021")
 
-# fig = px.scatter(fashion)
-# fig.show()
+fig = px.scatter(fashion)
+fig.show()
 
 # fig = px.parallel_categories(fashion_market)
 
-fig = px.scatter(x=[1,2,3,4], y=[2,3,4,5] )
-fig.show()
+
+# st.line_chart(data=mosq_data, x='모기지수 발생일', 
+#                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
+
+
+data_frame = sns.load_dataset('planets')
+print(data_frame.head())
