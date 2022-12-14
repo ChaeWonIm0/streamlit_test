@@ -110,12 +110,10 @@ columns = ["항목", "2020_SS", "2020_FW", "2020", "2021_SS","2021_FW", "2021", 
 index = ["Male_formal", "Female_formal", "Casual", "Sports", "Inner", "Kids", "Shoes", "bag"]
 df = pd.DataFrame(data, index=index, columns=columns)
 
-fig = px.scatter(df)
-fig.show()
-
+sns.kdeplot(data = df, x = '항목')
 # st.line_chart("fashion")
 
-st.write(fashion_market)
+# st.write(fashion_market)
 
 st.write("")
 "copyright by JiWon Seo & Chaewon Im"
