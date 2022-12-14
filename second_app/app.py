@@ -98,8 +98,4 @@ st.plotly_chart(fig)
 
 # st.line_chart("fashion")
 
-titanic = sns.load_dataset('titanic')
-st.write(titanic)
-
-p = sns.displot(data=titanic, x = 'age', kde=True)
-p
+st.write(fashion_market)
