@@ -102,4 +102,4 @@ titanic = sns.load_dataset('titanic')
 st.write(titanic)
 
 p = sns.displot(data=titanic, x = 'age', kde=True)
-st.write(p)
+p
