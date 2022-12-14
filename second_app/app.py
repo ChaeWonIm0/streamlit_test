@@ -97,4 +97,4 @@ fashion_market = pd.pivot_table(fashion, index = 'index')
 st.header("Male formal Market size")
 st.area_chart(fashion_market, height = 600)
 
-st.line_chart(data="fashion_market", x = 'Sports', y = ['2020','2021','2022_SS'])
+st.line_chart(data="fashion_market", x = 'Sports')
