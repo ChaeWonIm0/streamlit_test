@@ -90,7 +90,7 @@ fashion_market = pd.pivot_table(fashion, index = 'index')
 
 import plotly.graph_objects as go
 
-st.header "2022_SS pie chart "
+st.header ("2022_SS pie chart ")
 labels = ['Male_formal','Female_formal','Casual','Sprots','Inner','kids','Shoes']
 values = [1921,1359,8311,2697,964,584,3386]
 fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
