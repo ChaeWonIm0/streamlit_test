@@ -74,7 +74,6 @@ st.write(fashion)
 # graph = sns.pairplot(fashion)
 
 
-import plotly.express as px
 
 
 
