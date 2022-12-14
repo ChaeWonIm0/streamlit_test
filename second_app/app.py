@@ -95,13 +95,5 @@ st.header("")
 fashion_market = pd.pivot_table(fashion, index = 'index')
 st.write(fashion_market)
 
-# penguins = sns.load_dataset("penguins")
-# st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
-
-# Create Figure beforehand
-# fig = plt.figure(figsize=(9, 7))
-# sns.histplot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
-# plt.title("Hello Penguins!")
-# st.pyplot(fig)
-
-st.bar_chart(fashion_market, width = 150, height = 600)
+st.header("Male formal Market size")
+st.bar_chart(fashion, x="Male_formal", y="2020", color="2021")
