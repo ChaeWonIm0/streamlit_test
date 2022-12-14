@@ -73,24 +73,6 @@ fashion = pd.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
 st.write(fashion)
 # graph = sns.pairplot(fashion)
 
-
-
-
-
-# fig = px.histogram(fashion, x="2022_SS")
-# st.plotly_chart(fig)
-
-# fig1 = plt.figure(figsize=(8, 4))
-# sns.histplot(data=fashion, x = '2022_SS')
-# st.pyplot(fig1)
-
-# # pie
-# x = [10, 60, 30] # 범주형 데이터별 파이 그래프의 비율
-# labels = ['A', 'B', 'C']
-# fig = plt.figure(figsize=(8, 4))
-# plt.pie(x=x, labels=labels, autopct='%.1f%%')
-# st.pyplot(fig)
-
 st.header("Size of the fashion market for all items")
 st.bar_chart(fashion, width = 150, height = 600)
 
@@ -109,7 +91,10 @@ import plotly.express as px
 # st.line_chart(data=mosq_data, x='모기지수 발생일', 
 #                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
 
-penguins = sns.load_dataset("penguins")
+fashion = sns.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
+st.write(fashion)
+
+# penguins = sns.load_dataset("penguins")
 # st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
 
 # Create Figure beforehand
