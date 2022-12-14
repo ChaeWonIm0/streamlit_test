@@ -111,7 +111,7 @@ index = ["Male_formal", "Female_formal", "Casual", "Sports", "Inner", "Kids", "S
 df = pd.DataFrame(data, index=index, columns=columns)
 
 fig = plt.figure(figsize=(8,4))
-sns.histplot(data = df, x = 'Casual')
+sns.histplot(data = df, x = '2020')
 st.pyplot(fig)
 
 # st.write(fashion_market)
