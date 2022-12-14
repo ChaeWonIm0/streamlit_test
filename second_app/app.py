@@ -104,5 +104,4 @@ st.write(fashion_market)
 # plt.title("Hello Penguins!")
 # st.pyplot(fig)
 
-market_data = sns.(fashion_market)
 st.bar_chart(fashion)
