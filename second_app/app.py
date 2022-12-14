@@ -85,10 +85,6 @@ import plotly.express as px
 
 # fig = px.parallel_categories(fashion_market)
 
-
-# st.line_chart(data=mosq_data, x='모기지수 발생일', 
-#                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
-
 fashion_market = pd.pivot_table(fashion, index = 'index')
 #st.write(fashion_market)
 
@@ -97,15 +93,3 @@ st.area_chart(fashion_market, height = 600)
 
 # st.line_chart("fashion")
 
-def draw_line_plot(style):
-  plt.title('나이와 재산 간 상관관계')
-  plt.plot(
-      [10,20,30,40], # x축에 위치할 데이터
-      [1,4,9,16], # y축에 위치할 데이터
-      style
-  )
-  plt.xlabel('나이')
-  plt.ylabel('재산')
-  plt.grid(True)
-  plt.show()
-  st.write(draw_line_plot)
