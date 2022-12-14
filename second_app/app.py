@@ -98,5 +98,4 @@ st.plotly_chart(fig)
 
 # st.line_chart("fashion")
 
-fig = plt.figure(figsize=(8, 4))
-sns.histplot(data=fashion_market, x='Sports')
+fashion.plot.hist()
