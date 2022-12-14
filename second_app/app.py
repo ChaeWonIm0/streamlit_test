@@ -109,8 +109,8 @@ import plotly.express as px
 # st.line_chart(data=mosq_data, x='모기지수 발생일', 
 #                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
 
-# penguins = sns.load_dataset("penguins")
-st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
+penguins = sns.load_dataset("penguins")
+# st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
 
 # Create Figure beforehand
 fig = plt.figure(figsize=(9, 7))
