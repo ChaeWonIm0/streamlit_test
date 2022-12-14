@@ -109,7 +109,11 @@ import plotly.express as px
 # st.line_chart(data=mosq_data, x='모기지수 발생일', 
 #                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
 
-pip install seaborn
+penguins = sns.load_dataset("penguins")
+st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
 
-data_frame = sns.load_dataset('planets')
-print(data_frame.head())
+# Create Figure beforehand
+fig = plt.figure(figsize=(9, 7))
+sns.histplot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
+plt.title("Hello Penguins!")
+st.pyplot(fig)
