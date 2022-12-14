@@ -7,7 +7,7 @@ st.header("서울시 CCTV 현황 분석")
 CCTV_Seoul = pd.read_csv('./CCTV_SEOUL/dataframe/CCTV_in_Seoul.csv', encoding='utf-8')
 st.write(CCTV_Seoul)
 
-CCTV = pd.pivot_table(CCTV_Seoul, columns = '기관명')
+CCTV = pd.pivot_table(CCTV_Seoul, index = '소계')
 
 st.bar_chart(CCTV_Seoul)
 
