@@ -112,8 +112,8 @@ import plotly.express as px
 penguins = sns.load_dataset("penguins")
 st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
 
-# Create Figure beforehand
-fig = plt.figure(figsize=(9, 7))
-sns.histplot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
-plt.title("Hello Penguins!")
-st.pyplot(fig)
+# # Create Figure beforehand
+# fig = plt.figure(figsize=(9, 7))
+# sns.histplot(data=penguins, x="flipper_length_mm", hue="species", multiple="stack")
+# plt.title("Hello Penguins!")
+# st.pyplot(fig)
