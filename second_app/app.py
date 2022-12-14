@@ -91,8 +91,8 @@ import plotly.express as px
 # st.line_chart(data=mosq_data, x='모기지수 발생일', 
 #                               y=['모기지수(수변부)','모기지수(주거지)','모기지수(공원)'])
 
-fashion = sns.read_csv("./dataframe/2020-2022_fashion_marketing.csv")
-st.write(fashion)
+fashion_market = pd.pivot_table(fashion, index = 'index')
+st.write(fashion_market)
 
 # penguins = sns.load_dataset("penguins")
 # st.dataframe(penguins[["species", "flipper_length_mm"]].sample(6))
