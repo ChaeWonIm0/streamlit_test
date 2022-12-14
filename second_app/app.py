@@ -96,3 +96,4 @@ st.plotly_chart(fig)
 
 # st.line_chart("fashion")
 
+sns.histplot(data = fashion)
