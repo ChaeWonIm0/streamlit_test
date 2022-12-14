@@ -97,5 +97,4 @@ fashion_market = pd.pivot_table(fashion, index = 'index')
 st.header("Male formal Market size")
 st.area_chart(fashion_market, height = 600)
 
-sns.countplot(data = fashion_market)
-
+st.line_chart(data="fashion", x = 'index', y = ['2020','2021','2022_SS'] )
