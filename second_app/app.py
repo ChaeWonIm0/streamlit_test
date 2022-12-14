@@ -104,4 +104,5 @@ st.write(fashion_market)
 # plt.title("Hello Penguins!")
 # st.pyplot(fig)
 
-sns.heatmap(fashion_market)
+market_data = sns.heatmap(fashion_market)
+st.write(market_data)
