@@ -105,7 +105,7 @@ import plotly.express as px
 # fig = px.scatter(fashion)
 # fig.show()
 
-fig = px.parallel_categories(fashion_market)
+# fig = px.parallel_categories(fashion_market)
 
 fig = px.scatter(x=['Male_formal', 'Female_formal','Casual','Sports','Inner','Kids','Shoes','bag'], y = ['1538.9','2342.1', '3881','1888.4','2565.3','4453.6','1921.1'] )
 fig.show()
