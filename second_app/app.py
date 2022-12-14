@@ -96,9 +96,10 @@ values = [1921,1359,8311,2697,964,584,3386]
 fig = go.Figure(data=[go.Pie(labels=labels, values=values)])
 st.plotly_chart(fig)
 
-st.line_chart("fashion")
+# st.line_chart("fashion")
 
 titanic = sns.load_dataset('titanic')
 st.write(titanic)
 
-sns.displot(data=titanic, x = 'age', kde=True)
+p = sns.displot(data=titanic, x = 'age', kde=True)
+st.write(p)
