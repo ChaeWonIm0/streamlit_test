@@ -73,6 +73,8 @@ st.selectbox(
 
 #st.write(st.session_state['region'])
 
+st.write(st.session_state)
+
 if st.button('예측'):
     st.snow()
     st.balloons()
