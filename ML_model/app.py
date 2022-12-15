@@ -43,7 +43,7 @@ st.number_input(
     value=25.0,
     key='bmi'
 )
-st.write(st.session_state['bmi'])
+#st.write(st.session_state['bmi'])
 
 # children : 자녀수
 st.number_input(
@@ -52,7 +52,7 @@ st.number_input(
     value=1,
     key='children'
 )
-st.write(st.session_state['children'])
+#st.write(st.session_state['children'])
 
 # smoker : 흡연여부
 st.checkbox(
@@ -60,7 +60,7 @@ st.checkbox(
     value=False,
     key='smoker'
 )
-st.write(st.session_state['smoker'])
+#st.write(st.session_state['smoker'])
 
 # region : 지역
 
@@ -71,4 +71,7 @@ st.selectbox(
     key = "region"
 )
 
-st.write(st.session_state['region'])
+#st.write(st.session_state['region'])
+
+if st.button('예측'):
+    st.snow()
