@@ -66,7 +66,7 @@ st.write(st.session_state['smoker'])
 
 st.selectbox(
     label = "지역",
-    options = ["북동쪽", "북서쪽", "남동쪽", "남서쪽"]
+    options = ["북동쪽", "북서쪽", "남동쪽", "남서쪽"],
     index = 2,
     key = "region"
 )
