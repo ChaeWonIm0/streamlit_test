@@ -75,6 +75,7 @@ st.write(fashion)
 
 st.header("Size of the fashion market for all items_bar_chart")
 st.bar_chart(fashion, width = 150, height = 600)
+
 import plotly.express as px
 
 # st.header("Male formal Market size")
