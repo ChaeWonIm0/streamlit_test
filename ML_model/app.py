@@ -75,3 +75,8 @@ st.selectbox(
 
 if st.button('예측'):
     st.snow()
+    st.balloons()
+    # 예측
+    # model.predict(X_test) >> 전처리한 데이터 형태로 들어간 행렬(df)
+    # df 필요없고, 이중 리스트로 넣어도 됩니다.
+
