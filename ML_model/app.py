@@ -44,3 +44,20 @@ st.number_input(
     key='bmi'
 )
 st.write(st.session_state['bmi'])
+
+# children : 자녀수
+st.number_input(
+    label="자녀수",
+    step=1, 
+    value=1,
+    key='children'
+)
+st.write(st.session_state['children'])
+
+# smoker : 흡연여부
+st.checkbox(
+    label='흡연여부',
+    value=False,
+    key='smoker'
+)
+st.write(st.session_state['smoker'])
