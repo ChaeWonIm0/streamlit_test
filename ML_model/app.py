@@ -81,7 +81,7 @@ if st.button('예측'):
     # df 필요없고, 이중 리스트로 넣어도 됩니다.
     # 이중 리스트 : [[age, bmi, children, smoker, sex_male, region_northwest, region_northeast, region_southwest]]
     state = st.session_state
-    input_values = [[]
+    input_values = [[
         state['age'],state['bmi'],state['children'],state['smoker'],state['sex']=='남성',
         state['region']=='북서쪽',state['region']=='북동쪽', state['region']=='남서쪽'
     ]]
