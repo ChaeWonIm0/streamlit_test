@@ -87,6 +87,6 @@ if st.button('예측'):
         state['age'],state['bmi'],state['children'],state['smoker'],state['sex']=='남성',
         state['region']=='북동쪽',state['region']=='북서쪽', state['region']=='남서쪽'
     ]]
-    pred = model.predict([row])
+    pred = model.predict(input_values)
     st.write(pred[0])
     st.metric(label='예측값', value=pred[0])
