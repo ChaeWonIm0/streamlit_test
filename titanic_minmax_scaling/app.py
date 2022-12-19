@@ -11,7 +11,7 @@ get_image("wine.png") # https://www.canva.com/
 
 st.write(
     """
-    # 코드 & 데이터
+    # 와인 등급 예측하기
     * [Colab 노트북](https://colab.research.google.com/drive/1p5AZ6-a_W8Hmuxd0qtv2s-LQGHNlLn1J?usp=sharing)
     * 사용한 데이터 (wine.csv)
         * 출처 : https://www.kaggle.com/datasets/akhil0007/wine-data
