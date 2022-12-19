@@ -31,7 +31,7 @@ st.write("# 모델 통해 예측해 보기")
 with st.echo(code_location="below"):
     import joblib
     dir_path = f"{os.path.dirname(os.path.abspath(__file__))}"
-    model_path = f"{dir_path}/model.pkl"
+    model_path = f"{dir_path}/scaler.pkl"
     model = joblib.load(model_path)
     st.write("* KNN 모델")
     scaler_path = f"{dir_path}/scaler.pkl"
