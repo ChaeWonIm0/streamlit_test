@@ -25,7 +25,7 @@ st.write("")
 st.image("./2020 image/시몬스3.jpg") #카메라
 
 st.write("")
-"#### 카페와 트리에서 멋진 사진을 남겨요
+"#### 카페와 트리에서 멋진 사진을 남겨요"
 st.write("")
 
 st.write("")
