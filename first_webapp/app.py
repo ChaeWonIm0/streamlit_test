@@ -20,7 +20,7 @@ st.write("")
 st.image("./2020 image/시몬스2.png") 
 
 st.write("")
-"#### 시몬스테라스 밤 사진 예시""
+"#### 시몬스테라스 밤 사진 예시"
 st.write("")
 
 st.image("./2020 image/시몬스3.png") #카메라
